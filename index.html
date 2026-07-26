@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feduntec Games</title>
+<meta name="description" content="Feduntec Games is an independent mobile game studio by Andrii Fedunets. Creators of Thorn & Dew and Block World.">
+<style>
+  :root {
+    --bg: #f7f6f2; --card: #ffffff; --text: #23262b; --muted: #6b7280;
+    --accent: #3a9d5d; --border: #e5e3dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161a; --card: #1d2026; --text: #e8eaed; --muted: #9aa1ab;
+            --accent: #4fbf78; --border: #2a2e35; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex; min-height: 100vh; flex-direction: column;
+  }
+  main { max-width: 720px; width: 100%; margin: 0 auto; padding: 48px 24px; flex: 1; }
+  header h1 { font-size: 2rem; letter-spacing: -0.02em; }
+  header p { color: var(--muted); margin-top: 8px; }
+  .games { margin-top: 40px; display: grid; gap: 16px; }
+  .game {
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    padding: 20px 22px; display: flex; gap: 18px; align-items: flex-start;
+  }
+  .game .icon { font-size: 2.2rem; line-height: 1; }
+  .game h2 { font-size: 1.15rem; }
+  .game .status {
+    display: inline-block; margin-left: 8px; padding: 2px 10px; border-radius: 999px;
+    font-size: 0.72rem; font-weight: 600; vertical-align: middle;
+    background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent);
+  }
+  .game p { color: var(--muted); margin-top: 6px; font-size: 0.95rem; }
+  .contact { margin-top: 48px; }
+  .contact h3 { font-size: 1rem; margin-bottom: 6px; }
+  .contact a { color: var(--accent); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  footer {
+    text-align: center; color: var(--muted); font-size: 0.85rem;
+    padding: 24px; border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Feduntec Games</h1>
+    <p>Independent mobile game studio.</p>
+  </header>
+
+  <section class="games">
+    <div class="game">
+      <div class="icon">🌵</div>
+      <div>
+        <h2>Thorn &amp; Dew <span class="status">Coming soon — iOS</span></h2>
+        <p>An idle survival game about a lone cactus in the desert. Grow, evolve,
+           hire desert mercenaries and defend your water from raiders.</p>
+      </div>
+    </div>
+    <div class="game">
+      <div class="icon">🧱</div>
+      <div>
+        <h2>Block World <span class="status">Released</span></h2>
+        <p>A voxel building &amp; survival adventure for mobile.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h3>Contact</h3>
+    <p><a href="mailto:daleonandra0206@gmail.com">daleonandra0206@gmail.com</a></p>
+  </section>
+</main>
+<footer>© 2026 Feduntec Games · Andrii Fedunets</footer>
+</body>
+</html>
