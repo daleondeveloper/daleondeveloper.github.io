@@ -36,6 +36,10 @@
     background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent);
   }
   .game p { color: var(--muted); margin-top: 6px; font-size: 0.95rem; }
+  .game .links { margin-top: 10px; font-size: 0.88rem; }
+  .game .links a { color: var(--accent); text-decoration: none; }
+  .game .links a:hover { text-decoration: underline; }
+  .game .links span { color: var(--border); margin: 0 8px; }
   .contact { margin-top: 48px; }
   .contact h3 { font-size: 1rem; margin-bottom: 6px; }
   .contact a { color: var(--accent); text-decoration: none; }
@@ -60,13 +64,23 @@
         <h2>Thorn &amp; Dew <span class="status">Coming soon — iOS</span></h2>
         <p>An idle survival game about a lone cactus in the desert. Grow, evolve,
            hire desert mercenaries and defend your water from raiders.</p>
+        <div class="links">
+          <a href="privacy.html">Privacy policy</a>
+        </div>
       </div>
     </div>
     <div class="game">
       <div class="icon">🧱</div>
       <div>
-        <h2>Blokantis <span class="status">Released</span></h2>
-        <p>A block survival adventure for mobile.</p>
+        <h2>Blokantis <span class="status">Released — iOS</span></h2>
+        <p>A falling-block puzzle played from the inside. You are not the hand above
+           the well — you are a character down in it, running across the stack and
+           shoving blocks sideways to complete rows before the pit fills up.</p>
+        <div class="links">
+          <a href="https://apps.apple.com/app/id6751057102" target="_blank" rel="noopener">App&nbsp;Store</a>
+          <span>·</span>
+          <a href="privacy-blokantis.html">Privacy policy</a>
+        </div>
       </div>
     </div>
   </section>
@@ -76,6 +90,8 @@
     <p><a href="mailto:daleonandra0206@gmail.com">daleonandra0206@gmail.com</a></p>
   </section>
 </main>
-<footer>© 2026 Fedunets Games · Andrii Fedunets · <a href="privacy.html" style="color:inherit">Privacy Policy</a></footer>
+<footer>© 2026 Fedunets Games · Andrii Fedunets · Privacy:
+<a href="privacy.html" style="color:inherit">Thorn &amp; Dew</a> ·
+<a href="privacy-blokantis.html" style="color:inherit">Blokantis</a></footer>
 </body>
 </html>
