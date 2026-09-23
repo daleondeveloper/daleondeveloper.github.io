@@ -1,3 +1,6 @@
 # app-ads.txt — Fedunets Games
 # Lines are provided by each ad network's dashboard and will be added here
 # as integrations go live (Unity Ads / ironSource, Liftoff Monetize, DT Exchange).
+
+# Meta — app ownership verification for Blokantis ads (Meta App ID 1978521406626056)
+facebook.com, 1978521406626056, DIRECT, c3e20eee3f780d68
