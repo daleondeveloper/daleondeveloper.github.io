@@ -4,3 +4,6 @@
 
 # Meta — app ownership verification for Blokantis ads (Meta App ID 1978521406626056)
 facebook.com, 1978521406626056, DIRECT, c3e20eee3f780d68
+
+# Meta — app ownership verification for Thorn & Dew ads (Meta App ID 1173321181689852)
+facebook.com, 1173321181689852, DIRECT, c3e20eee3f780d68
